@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('/', 'welcome')->middleware(['auth','verified']);
+Route::view('/', 'welcome')->middleware(['auth','verified']); fdf
